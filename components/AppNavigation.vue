@@ -10,16 +10,20 @@
 <script setup lang="ts">
 const links = [
     {
-        display: "Esquema",
-        navigate: "/schema"
+        display: "Ruta",
+        navigate: "/route"
     },
     {
         display: "Equipo",
         navigate: "/team"
     },
     {
-        display: "Ruta",
-        navigate: "/route"
+        display: "Estimación",
+        navigate: "/estimation"
+    },
+    {
+        display: "Servicios",
+        navigate: "/services-and-technologies"
     }
 ]
 </script>
