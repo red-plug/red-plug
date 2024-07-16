@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         }
     },
     devtools: { enabled: true },
-    modules: ['@nuxt/content'],
+    modules: ['@nuxt/content', "@nuxtjs/tailwindcss"],
     routeRules: {
         '/': { prerender: true }
     }

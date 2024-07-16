@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.13.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "daisyui": "^4.12.10",
     "nuxt": "^3.12.3"
   }
 }
