@@ -1,3 +1,8 @@
+---
+title: 'Bienvenido | Red Plug'
+description: 'Bienvenido a la organización, toma esta página como una pequeña introducción a lo que nos queremos convertir'
+---
+
 ::h1{.text-center}
 Bienvenido a la organización [Red Plug]{.text-primary}
 ::
@@ -21,9 +26,4 @@ Nuestro enfoque es hacía los clientes que cuenten con algún negocio físico el
 
 Para ser identificado como un colaborador activo de [__Red Plug__]{.text-primary} tendrás que involucrarte con el equipo y los planes de crecimiento, no trabajamos de manera fija, tampoco bajo esquemas de horas y mucho menos por supervisión que no seamos nosotros mismos. Tu decides cuanto y como trabajar, siempre y cuando estes apegado a las estimaciones de entrega (solo cuando exista un proyecto activo que genere ingresos a la organización).
 
-Para saber más visita los siguientes links
-
-- [Team](/team)
-- [Ruta de crecimiento](/route)
-- [Metodología de estimación](/estimation)
-- [Servicios y tecnologías](services-and-technologies)
+Para saber más visita los links que encontrarás en el menú de navegación
