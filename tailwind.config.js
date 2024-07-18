@@ -1,5 +1,21 @@
 module.exports = {
     plugins: [require('daisyui')],
+    theme: {
+        extend: {
+            colors: {
+                php: '#484C89',
+                laravel: '#F55247',
+                filament: '#FDAE4B',
+                typescript: '#235A97',
+                nuxt: '#00DC82',
+                vue: '#41B883',
+                digitalocean: '#0080FF',
+                forge: '#18B69B',
+                jenkins: '#335061',
+                meilisearch: '#FF5CAA'
+            }
+        }
+    },
     content: [
         `content/**/*.md`,
         `components/**/*.{vue,js,ts}`,
