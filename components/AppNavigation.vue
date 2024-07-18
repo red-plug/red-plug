@@ -9,9 +9,14 @@
 </template>
 <script setup lang="ts">
 
+interface NavLink {
+    display: string,
+    navigate: string
+}
+
 const route = useRoute()
 
-const links = [
+const links: NavLink[] = [
     {
         display: "Ruta",
         navigate: "/route"
@@ -29,5 +34,4 @@ const links = [
         navigate: "/services-and-technologies"
     }
 ]
-console.log(route.path)
 </script>

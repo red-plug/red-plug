@@ -11,6 +11,20 @@ export default defineNuxtConfig({
             ]
         }
     },
+    content: {
+        highlight: {
+            theme: 'github-dark',
+            langs: [
+                'js',
+                'html',
+                'php',
+                'sql',
+                'vue-html',
+                'vue',
+                'bash'
+            ]
+        }
+    },
     devtools: { enabled: true },
     modules: ['@nuxt/content', "@nuxtjs/tailwindcss", "@nuxt/image"],
     routeRules: {
