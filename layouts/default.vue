@@ -4,7 +4,7 @@
         <div class="drawer-content flex flex-col">
             <AppHeader></AppHeader>
             <div class="container mx-auto py-3 lg:py-8 p-2 sm:p-4 md:p-8" id="content">
-                <ContentAlert class="alert-warning shadow shadow-warning my-4">
+                <Alert class="alert-warning shadow shadow-warning my-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none"
                         viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -13,7 +13,7 @@
                     <span>
                         Seguimos en desarrollo y planeación, si ves algo incorrecto o deseas cambiar algo por favor <ContentLink href="https://github.com/red-plug/red-plug/issues" class="link-primary link-hover">levanta un issue en Github</ContentLink> Request o házmelo saber
                     </span>
-                </ContentAlert>
+                </Alert>
                 <slot />
             </div>
             <AppFooter></AppFooter>
