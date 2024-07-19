@@ -53,3 +53,7 @@
 #content p > code {
     @apply badge badge-sm;
 }
+
+#content table {
+    @apply table table-zebra;
+}
