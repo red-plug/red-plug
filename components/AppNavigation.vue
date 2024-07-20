@@ -22,10 +22,6 @@ const links: NavLink[] = [
         navigate: "/route"
     },
     {
-        display: "Equipo",
-        navigate: "/team"
-    },
-    {
         display: "Estimación",
         navigate: "/estimation"
     },
